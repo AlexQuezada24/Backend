@@ -1,8 +1,7 @@
 <?php
-$numero = 7; 
-if ($numero % 2 == 0) {
-    echo "$numero es un número par.";
-} else {
-    echo "$numero es un número impar.";
-}
+$nombre_completo = "Alex Quezada";
+echo "Número de caracteres en el nombre: " . strlen($nombre_completo) . "<br>";
+echo "Nombre en mayúsculas: " . strtoupper($nombre_completo) . "<br>";
+echo "Nombre al revés: " . strrev($nombre_completo) . "<br>";
+
 ?>
